@@ -71,12 +71,27 @@ https://codepen.io/mcelroyian/pen/oNXprNN
     35. How often should I commit to github?
         every 20 minutes or after a new feature is completeed.
     36. What is the command we would use to push our repo up to github? 
+        git push
     37. Walk me through Lambda's git flow. 
+        fork a Lamdba repo
+        add TL to the forked repo  
+        clone repo to local machine
+        create personal branch
+        commit work
+        push branch to github
+        request pull of new branch 
+        Add Tl to pull request.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+        block element takes up a new line and full width of container. Inline stays in current line and only as wide as content needs to be.
+    2. What happens when an element is positioned absolutely?
+        It is taken out the the dom flow.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block element: div, p, h1. Inline element: span, a. Inline-block element: img
     5. In your own words, explain the box model. What is the fix for the box model? 
+        That every html element is a box. around the content is padding, then the border, then margin. It allows users to set space between elements.
+        box model is fragile, because it addes padding and border to widths. The solution is box-model. It includes padding and border in its width sizes, so responsive works better.
